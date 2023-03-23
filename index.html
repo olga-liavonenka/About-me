@@ -4,44 +4,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles/style.css">
+  <script src="https://kit.fontawesome.com/3b3dc0147c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
   <title>Ольга Леоненко</title>
 </head>
 
 <body>
-  <header>
-    <img src="" alt="Мое фото" width="300">
-  </header>
-  <h2>Мои социальные сети:</h2>
-  <ul>
-    <li>
-      <a href="https://www.instagram.com/olkakonopelko">Instagram</a>
-    </li>
-    <li>
-      <a href="https://www.facebook.com/olka.konopelko?mibextid=LQQJ4d">Facebook</a>
-    </li>
-  </ul>
+  <div class="general-information">
+    <header>
+      <h1>Ольга Леоненко</h1>
+      <div class="general-photo">
+        <img src="./image/me.jpeg" alt="Мое фото" width="300">
+      </div>
+    </header>
+    <section class="about-me">
+      <h2>Обо мне</h2>
+      <p>Меня зовут Ольга Леоненко. По образованию я инженер-эколог, но очень хочу переключиться на удаленную работу,
+        чтобы можно было это делать из любой точки мира. Помимо работы я люблю путешествовать, рисовать, кататься на
+        коньках и пить вкуснейший кофе в уютных кофейнях. Одним из основных интересов сейчас является
+        <i>web-разработка.</i> Это новое направление для меня и я надеюсь, что все сложится хорошо. Web-разработка для
+        меня это что-то волшебное, ведь написав даже несколько строк кода можно мгновенно увидеть визуализацию своей
+        работы.</p>
+    </section>
+    <section class="social-network">
+      <h2>Мои социальные сети</h2>
+      <a href="https://www.instagram.com/olkakonopelko"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.facebook.com/olka.konopelko?mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+    </section>
+  </div>
 
-  <h2>Обо мне</h2>
-  <p>По образованию я инженер-эколог, но очень хочу переключиться на удаленную работу, чтобы можно было это делать из
-    любой точки мира.</p>
-  <p>Помимо работы я люблю путешествовать, рисовать, кататься на коньках и пить вкуснейший кофе в уютных кофейнях.</p>
-  <p> Одним из основных интересов сейчас является <i>web-разработка.</i><br>
-    Это новое направление для меня и я надеюсь, что все сложится хорошо.<br>
-    Web-разработка для меня это что-то волшебное, ведь написав даже несколько строк кода можно увидеть визуализацию.</p>
-
-  <h3>Подборка классных рождественских фильмов от меня: </h3>
-  <a href="https://www.kinopoisk.ru/film/1017967/">
-    <img class="border" src="image/The Man Who Invented Christmas.jpeg" alt="Необыкновенная история на Рождество"
-      width="400">
-  </a>
-  <a href="https://www.kinopoisk.ru/film/4472426/">
-    <img class="border" src="image/Falling for Christmas.jpeg" alt="Необыкновенное Рождество" width="400">
-  </a>
-  <a href="https://www.kinopoisk.ru/film/738499/">
-    <img class="border" src="image/The Grinch.jpeg" alt="Гринч-похититель Рождества" width="400">
-  </a>
+  <section class="my-hobbies">
+    <h2>Мои увлечения</h2>
+    <div class="wrapper">
+      <div class="item">
+        <h3>Вейкборд</h3>
+        <p>Как же прекрасно скользить по воде в теплый летний денек</p>
+        <div class="picture">
+          <img src="./image/wake.jpeg" alt="Катание на вейкборде">
+        </div>
+      </div>
+      <div class="item">
+        <h3>Путешествия</h3>
+        <p>В каждой стране - отдельный неизведанный мир к которому хочется прикоснуться, насладиться им, вдохнуть</p>
+        <div class="picture">
+          <img src="./image/travaling.jpeg" alt="Путешествие в Грузии">
+        </div>
+      </div>
+      <div class="item">
+        <h3>Верховая езда</h3>
+        <p>Эти огромные черные глаза покорили мое сердечко. Конный спорт для меня - про слиться воедино с лошадью, чувствовать ее ритм и двигаться в ее такт</p>
+        <div class="picture">
+          <img src="./image/horse.jpeg" alt="Верховая езда">
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 
 </html>
